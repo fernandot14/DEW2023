@@ -1,0 +1,24 @@
+ passo  do git:
+ 1-entrar no git hub
+ 2-abrir vscode
+ 3-fechar pasta aberta 
+ 4-ir no botao source 
+ 5-copiar url  do repositorio e colar em source control 
+ 6-clpnar diretorio
+ 7-confirmar sua confianca 
+                       fim  da cloangem 
+
+               configurar terminal
+1-ir no  terminal 
+2-digitar comandos
+3-fechar terminal
+     
+                enviando mudancas para o  git
+1-salvar mudancas 
+2-ir no source 
+3-em changes
+4-colocar mensage commit 
+5-clicar na seta 
+6-commit e push
+7-na primeira vez autorizar
+8-ver no git 
