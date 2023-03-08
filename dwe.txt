@@ -22,3 +22,10 @@
 6-commit e push
 7-na primeira vez autorizar
 8-ver no git 
+
+comandos do html:
+
+<html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
+|<meta><meta>: altera coisas na sua escrita 
+  charset: compreende acentuacao,  de preferencia use ="UTF-8"
+
