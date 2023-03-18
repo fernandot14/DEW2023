@@ -38,6 +38,7 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
    <h1>: maior fonte da parte haed
     <h2>, <h3>, <h4>, <h5> e <6h>
    <p>: representa paragrafos 
-   <ol>: representa uma lista 
+   <ol>: representa uma lista ordenada
+   <ul>:representa uma lista desordenada
      <li>representa os elemntos da lista
 
