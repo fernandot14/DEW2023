@@ -33,9 +33,10 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
   charset: compreende acentuacao,  de preferencia use ="UTF-8"
 
 <a href=><a>: enetnde como link tudo que estiver em seu corpo,  caso tenha um # nao levara a lugar nenhum
-
+  <../alguma coisa> quando for criar o caminho de um arquivo para outro, vocer pode sair daquele que 
+  voce esta com o comando <../s
 <body><body>: representa o corpo dos eu site 
-   <h1>: maior fonte da parte haed
+   <h1>: maior fonte da parte body
     <h2>, <h3>, <h4>, <h5> e <6h>
    <p>: representa paragrafos 
    <ol>: representa uma lista ordenada
