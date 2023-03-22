@@ -41,4 +41,7 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
    <ol>: representa uma lista ordenada
    <ul>:representa uma lista desordenada
      <li>representa os elemntos da lista
+   <dl>abre o inicio de uma lista de termos, ou uma lista sem numeraçao
+     <dt>e o primeirs lista, ela fica mais a direita que o comando <h>
+      <dd>e a sefunda lista, fica mais a direita que o  <dt>
 
