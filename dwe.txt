@@ -50,3 +50,8 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
      <dt>e o primeirs lista, ela fica mais a direita que o comando <h>
       <dd>e a sefunda lista, fica mais a direita que o  <dt>
 
+colplementos:
+
+ *diminuir imagem: primeiro podemos abrir a imagem no paint, logho depois diminuir sua quantidade
+ de pixels
+
