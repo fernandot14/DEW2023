@@ -35,23 +35,36 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
 <a href=><a>: enetnde como link tudo que estiver em seu corpo,  caso tenha um # nao levara a lugar nenhum
   <../alguma coisa> quando for criar o caminho de um arquivo para outro, vocer pode sair daquele que 
   voce esta com o comando <../s
-  target:colocamos logo apos colocarmos href="", isso indica aonde a paginad deve ser aberta, caso voce
+  target:colocamos logo apos colocarmos href="", isso indica aonde a pagina deve ser aberta, caso voce
   coloque ="blank" voce ira abrir a pagina em outra janela, caso voce coloque ="self" abrira a pagina
   na mesma janela que voce esta 
+  id=: podemos colocar id em um h1,p e etc, isso indica que ele e um link, mais como um destino para o limk
+  , se voce colocar em href="#id", sendo id o nome que voce colocou no id em h1,p e etc o link te levara
+  na area da sua pagina que se encontra o id, como uma viagem rapida pela pagina
   
 <body><body>: representa o corpo dos eu site 
+   
+   <img src>: e a tag que coloca imagens, nao e necessario fechala apenas introduzir o caminho 
+   ao qual o programa deve correr para encontra-lo em src="", alt="" e usado para colocar descriçoes
+   as imagens.
+      *diminuir imagem: primeiro podemos abrir a imagem no paint, logho depois diminuir sua quantidade
+ de pixels, ou usar as tags: height="" e width="", dentro da tag <img src=> 
+   
    <h1>: maior fonte da parte body
     <h2>, <h3>, <h4>, <h5> e <6h>
    <p>: representa paragrafos 
+   
    <ol>: representa uma lista ordenada
    <ul>:representa uma lista desordenada
      <li>representa os elemntos da lista
+   
    <dl>abre o inicio de uma lista de termos, ou uma lista sem numeraçao
      <dt>e o primeirs lista, ela fica mais a direita que o comando <h>
       <dd>e a sefunda lista, fica mais a direita que o  <dt>
 
+
 colplementos:
 
  *diminuir imagem: primeiro podemos abrir a imagem no paint, logho depois diminuir sua quantidade
- de pixels
+ de pixels, ou usar as tags: height="" e width="", dentro da tag <img src=> 
 
