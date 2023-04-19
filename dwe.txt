@@ -44,17 +44,40 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
   
 <body><body>: representa o corpo dos eu site 
    
+   elementos block (ocupam toda a linha):
+
+   <h1>: maior fonte da parte body
+    <h2>, <h3>, <h4>, <h5> e <6h>
+   <p>: representa paragrafos 
+
+<!--apesar de ser um elemento block a tag <table> pode ser apropriada de elementos line-->
+   
+   <table>: delimita a area de uma tabela em seu site. podemos usar as seguintes atribuiçoes:
+     border=: determina a borda de uma tabela 
+    
+     abaixo serão elementos usados em CSS:
+     width=:largura da tabela 
+     cellspacing=:espaço entre as celulas 
+     cellspadding=: espaço entre a borda da tabela e suas celulas
+  
+    tags que ficam dentro da tag <table>:
+    
+     <caption>: determina o titulo de uma tabela 
+    <tr>:ela abre uma linha na tabela, nesta linha voce colocara colunas
+      <td>:usada dentro de <tr>, determina as colunas, divisões visuais entre os elementos 
+  
+
+
+   
+   elemento line (não ocupa toda a linha):
+   
    <img src>: e a tag que coloca imagens, nao e necessario fechala apenas introduzir o caminho 
    ao qual o programa deve correr para encontra-lo em src="", alt="" e usado para colocar descriçoes
    as imagens.
       *diminuir imagem: primeiro podemos abrir a imagem no paint, logho depois diminuir sua quantidade
  de pixels, ou usar as tags: height="" e width="", dentro da tag <img src=> 
-   
-   <h1>: maior fonte da parte body
-    <h2>, <h3>, <h4>, <h5> e <6h>
-   <p>: representa paragrafos 
-   
-   <ol>: representa uma lista ordenada
+
+  <ol>: representa uma lista ordenada
    <ul>:representa uma lista desordenada
      <li>representa os elemntos da lista
    
@@ -62,9 +85,6 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
      <dt>e o primeirs lista, ela fica mais a direita que o comando <h>
       <dd>e a sefunda lista, fica mais a direita que o  <dt>
 
+   
 
-colplementos:
-
- *diminuir imagem: primeiro podemos abrir a imagem no paint, logho depois diminuir sua quantidade
- de pixels, ou usar as tags: height="" e width="", dentro da tag <img src=> 
 
