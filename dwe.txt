@@ -65,6 +65,11 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
      <caption>: determina o titulo de uma tabela 
     <tr>:ela abre uma linha na tabela, nesta linha voce colocara colunas
       <td>:usada dentro de <tr>, determina as colunas, divisões visuais entre os elementos 
+       atributos de td e th:
+        *colspan: usado para aumentar a celula da tabela, ele aumenta a celula em relaçao as colunas,
+        aumenta ela para direita
+        *rowspan: aumenta as celulas em relaçao as linhas, aumenta para baixo
+
   
 
 
