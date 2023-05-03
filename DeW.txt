@@ -53,22 +53,49 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
 <!--apesar de ser um elemento block a tag <table> pode ser apropriada de elementos line-->
    
    <table>: delimita a area de uma tabela em seu site. podemos usar as seguintes atribuiçoes:
-     border=: determina a borda de uma tabela 
+     *border=: determina a borda de uma tabela 
     
      abaixo serão elementos usados em CSS:
-     width=:largura da tabela 
-     cellspacing=:espaço entre as celulas 
-     cellspadding=: espaço entre a borda da tabela e suas celulas
+     *width=:largura da tabela 
+     *cellspacing=:espaço entre as celulas 
+     *cellspadding=: espaço entre a borda da tabela e suas celulas
   
     tags que ficam dentro da tag <table>:
     
      <caption>: determina o titulo de uma tabela 
+    
     <tr>:ela abre uma linha na tabela, nesta linha voce colocara colunas
+      
       <td>:usada dentro de <tr>, determina as colunas, divisões visuais entre os elementos 
        atributos de td e th:
         *colspan: usado para aumentar a celula da tabela, ele aumenta a celula em relaçao as colunas,
         aumenta ela para direita
         *rowspan: aumenta as celulas em relaçao as linhas, aumenta para baixo
+
+      <form>: e a forma de introduzir um formulario dentro do seu site, o formulario e a forma de interaçao
+      entre o individuo que esta acessando o site e o seu criador. tags para usar dentro:
+
+        <label>:da um titulo a aba de interaçao 
+        
+        <input>: abre a entrada para a informaçao, pode ser acompanhado dos atributos: size=determina
+        o tamanho da aba de interaçao; maxlenght e minlenght= determinam a quantidade de letras; type= determina 
+        o seu tipo; required= o torna obrigatorio. vejamos alguns types:
+        
+        *texte=abre ala para o usuario escrever um texto
+        *password=literalmente em formato de senha
+        *checkbox=um quadrado aonde podemos interagir 
+        *radio=a mesma coisa que i checkbox porem, se os input tiverem mesmo nome, apenas um pode ser
+        selecionado 
+        *file= lhe permite introduzir um arquivo (pode ser usado junto a "accept" para restringir 
+        o tipo de arquivo)
+        *placeholder=uma escrita de fundo
+
+        <select>: como dis o nome, introdiz a possubilidade de escolha, elas aparecem ao lado
+        e possuem seu nime atribuido pela tag <option>
+
+        <textarea>: abre a possibilidade do usuario escrever um texto
+
+        <button>:literalmente botoes para o usuario interagir
 
   
 
