@@ -95,6 +95,8 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
 
         <textarea>: abre a possibilidade do usuario escrever um texto
 
+        <fieldset>: usado para colocar as informaçoes dentro dele, pode ter <legend> abaixo  de fieldset
+        
         <button>:literalmente botoes para o usuario interagir
 
   
