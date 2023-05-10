@@ -110,14 +110,17 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
       <area>: este determina a area mapeada, usado abaixo de <map>, suas atribuiçoes sao:
           
           *shape= determina o formato da mapeamento, pode ser rect, circle ou poly
+          
           *coords= determina as cordenadas conforme o shape, se for shape="rect" devemos escrever da seguinte 
           forma:"X1,Y1,X2,Y2" sendo X1 e Y1 as cordenadas do canto superior esquerdo do quadrado e X2 e Y2 
-          as cordenadas do canto inferior direito. quando shape="circle" ficara da seguinte forma:"X,Y.,R" 
+          as cordenadas do canto inferior direito. quando shape="circle" ficara da seguinte forma:"X,Y,R" 
           sendo X e Y as cordenadas do ponto central do circulo e R o raio dele. Por ultimo quando shape="poly"
           ficara da seguinte forma="X1,Y1,X2,Y2,X3,Y3...", sendo X e Y os pontos, sempre devemos seguir do ponto 
-          mais alto, ir aos mais a dirita, seguir para baixo e depois esquerda para mapear os pontos desta imagem
+          mais alto a esquerda, ir aos mais a dirita, seguir para baixo e depois esquerda para mapear os pontos desta imagem
 
-
+      <iframe>:permite abrirmos paginas dentro de outra pagina, colocamos naquilo que queremos abrir 
+      target="nome", depois coloquemos p atributo name="nome colocado em target", agora o link sera aberto 
+      na pagina 
    
    elemento line (não ocupa toda a linha):
    
