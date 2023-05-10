@@ -81,7 +81,7 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
         o tamanho da aba de interaçao; maxlenght e minlenght= determinam a quantidade de letras; type= determina 
         o seu tipo; required= o torna obrigatorio. vejamos alguns types:
         
-        *texte=abre ala para o usuario escrever um texto
+        *text=abre ala para o usuario escrever um texto
         *password=literalmente em formato de senha
         *checkbox=um quadrado aonde podemos interagir 
         *radio=a mesma coisa que i checkbox porem, se os input tiverem mesmo nome, apenas um pode ser
@@ -90,7 +90,7 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
         o tipo de arquivo)
         *placeholder=uma escrita de fundo
 
-        <select>: como dis o nome, introdiz a possubilidade de escolha, elas aparecem ao lado
+        <select>: como diz o nome, introdiz a possubilidade de escolha, elas aparecem ao lado
         e possuem seu nime atribuido pela tag <option>
 
         <textarea>: abre a possibilidade do usuario escrever um texto
@@ -99,7 +99,23 @@ html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
         
         <button>:literalmente botoes para o usuario interagir
 
-  
+      mapemento de imagens
+
+      podemos mapeas imagens em html (colocar links em uma parte dela), vamos as tags: 
+
+      *usemap= iremos atrivuir um nome a imagem para que depois ela seja encontrada pelo html
+
+      <map name=>map abre o mapeamento de imagens, coloque em "name" o nome que voce colocou em "usemap"
+      desta forma voce selecionou a imagem que sera mapeada
+      <area>: este determina a area mapeada, usado abaixo de <map>, suas atribuiçoes sao:
+          
+          *shape= determina o formato da mapeamento, pode ser rect, circle ou poly
+          *coords= determina as cordenadas conforme o shape, se for shape="rect" devemos escrever da seguinte 
+          forma:"X1,Y1,X2,Y2" sendo X1 e Y1 as cordenadas do canto superior esquerdo do quadrado e X2 e Y2 
+          as cordenadas do canto inferior direito. quando shape="circle" ficara da seguinte forma:"X,Y.,R" 
+          sendo X e Y as cordenadas do ponto central do circulo e R o raio dele. Por ultimo quando shape="poly"
+          ficara da seguinte forma="X1,Y1,X2,Y2,X3,Y3...", sendo X e Y os pontos, sempre devemos seguir do ponto 
+          mais alto, ir aos mais a dirita, seguir para baixo e depois esquerda para mapear os pontos desta imagem
 
 
    
