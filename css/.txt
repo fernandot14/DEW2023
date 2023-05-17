@@ -1,0 +1,10 @@
+Como chamr um CSS:
+
+O CSS e responsavel pela formataçao do seu web site, colca cor, estilo, tamanho e loalizaçao dos elementos
+html.
+existem 3 formas de chamar uma pagina CSS para a sua pagina html:
+
+     *maneira externa: Criar uma pagina CSS que sera linkada a paginas html
+     *adicionar dentro da tag <head>: Podemos adicionar as formataçoes em CSS O chamando dentro da tag
+     head, assim apenas aquela pagina sera formatada!
+     *na tag <HTML>: 
