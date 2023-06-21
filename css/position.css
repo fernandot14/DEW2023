@@ -4,3 +4,16 @@
     padding:0;
     box-sizing: border-box;
 }
+.section
+{
+    width: 80%;
+    background-color:blue ;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+}
+img{
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
