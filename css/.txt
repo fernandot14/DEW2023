@@ -16,6 +16,16 @@ existem 3 formas de chamar uma pagina CSS para a sua pagina html:
      div{}, tudo que ficar dentro da de {} sera parte da formataçao de div, tudo que colocarmos sera uma 
      propriedade:
 
+     lembrete: 
+     sempre inicie seu codigo css assim;
+
+     *
+     {
+          margin:0;
+          padding:0;
+          box-sizing: border-box;
+     }
+     
      *color:
 
      e tudo apos : sera o valor dela:
@@ -26,11 +36,13 @@ existem 3 formas de chamar uma pagina CSS para a sua pagina html:
 
      color:grenn;
 
-     *display: altera o valor do elemnto, se ele é inline ou block;
+     *display: altera o valor do elemnto, se ele é inline ou block (entre outra coisas);
 
      *tamanho do elemento block: podemos alterar o tamanho dos elementos com width e right, geralmente usando porcentagem;
 
      *margin: determina a margem dos elementos;
 
      *padding: determina o tamanho do padding (entre a broda e o elemento);
+
+
 
