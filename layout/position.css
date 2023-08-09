@@ -1,0 +1,29 @@
+#foto2{
+    position: absolute;
+    top: 50px;
+    z-index: 5;
+    animation:sol 10s;
+    
+}
+#foto3{
+    position: absolute;
+    top: 50px;
+    z-index: 6; 
+    animation:nuvem 10s;
+}
+#foto1{
+    position: absolute;
+    z-index: 3;
+    
+}
+@keyframes sol{
+    from{right:0%}
+    to{right:100%}
+}
+@keyframes nuvem{
+    from{right:100%}
+    to{right:0%}
+}
+
+
+
